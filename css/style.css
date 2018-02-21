@@ -1,0 +1,61 @@
+div.container {
+	text-align: center;
+	width: 400px;
+}
+
+#welcomeContainer {
+	margin-top: 150px;
+}
+
+#containerLoggedInPage {
+              
+    margin-top: 60px;
+              
+}
+
+html, body {
+	height: 100%;
+}
+
+.container-fluid {
+}
+
+body {
+	background: url(../img/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	color: white !important;
+}
+
+h1+p {
+	color: white;
+}
+
+#signUpForm {
+	display: block;
+}
+
+#logInForm {
+	display: none;
+}
+
+.toggleForms {
+	color: white;
+	font-weight: bold;
+}
+
+.toggleForms:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+#diary {
+	width: 50px;
+	height: 1000px;
+}
